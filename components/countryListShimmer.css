@@ -1,0 +1,17 @@
+.countries-shimmer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 40px;
+
+}
+.shimmer-card{
+    height: 400px;
+    background-color: #eee;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #0000001a, 0 1px 3px #0000000f;
+}
+@media (max-width:480px){
+    .shimmer-card{
+        width: 100%;
+    }
+}
